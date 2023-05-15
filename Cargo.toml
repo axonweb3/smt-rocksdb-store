@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rocksdb = { package = "ckb-rocksdb", version = "0.19", default-features = false, features = ["snappy", "march-native"] }
+rocksdb = { package = "ckb-rocksdb", version = "0.20", default-features = false, features = ["snappy", "march-native"] }
 sparse-merkle-tree = "0.6.1"
 
 [features]
